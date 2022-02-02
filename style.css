@@ -4,11 +4,15 @@ body {
 
 }
 
+.navbar {
+    background-color: black;
+}
+
 #filler {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgray;
+    background-color: #F1F1F1;
     width: 100%;
     height: 100vh;
     color: black;
@@ -37,7 +41,7 @@ body {
     display: flex;
     position: static;
     bottom: 0;
-    background-color: lightgray;
+    background-color: black;
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -46,7 +50,8 @@ body {
 
 #footer a {
     text-decoration: none;
-   
+   color: white;
+
    
 
 }
