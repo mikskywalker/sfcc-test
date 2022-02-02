@@ -1,0 +1,74 @@
+body {
+
+    background-color: white;
+
+}
+
+#filler {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    width: 100%;
+    height: 100vh;
+    color: black;
+    margin: 0%, 3%, 0%, 3%;
+
+}
+
+#main  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+}
+
+.myTextStyle {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+#footer {
+    display: flex;
+    position: static;
+    bottom: 0;
+    background-color: lightgray;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#footer a {
+    text-decoration: none;
+   
+   
+
+}
+
+/* BUTTON TO TOP STYLE */
+#goTopBtn { 
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 40px; /* Place the button at the bottom of the page */
+    right: 5%; /* Place the button 30px from the right */
+    z-index: 3; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: black; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding-right: 15px;
+    padding-left: 15px; /* Some padding */
+    border-radius: 6%; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #goTopBtn :hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
