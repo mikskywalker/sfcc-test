@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="style.css">
 
 
+
   <title>Hello, Miks!</title>
 </head>
 
@@ -31,8 +32,6 @@
   <style>
     img {
       height: 50vh;
-
-
 
     }
   </style>
@@ -62,9 +61,9 @@
 
 
   <!-- START NAV -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center">
     <div class="container-fluid ">
-      <a class="navbar-brand" href="#">LOGO</a>
+      <a class="navbar-brand" href="#">Scarlet Nexus</a>
       <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -91,9 +90,9 @@
   </nav> <!-- END NAV-->
 
 
-  <div id="home">
-    <h1 class="myTextStyle fw-bold">Are you ready for another adventure?</h1>
-  </div>
+  <!-- <div id="home">
+    <h1 class="myTextStyle text-center fw-bold">Are you ready for another adventure?</h1>
+  </div> -->
 
 
   <!-- START CAROUSEL-->
@@ -107,6 +106,7 @@
         <div class="owl-carousel owl-theme">
 
           <!-- Start First Item -->
+
           <div class="item mb-4">
             <div class="card border-0 shadow">
               <img class="card-img-top" src="images\scarlet1.jpg" alt="Photo of both female and male main characters">
@@ -117,9 +117,11 @@
               </div>
             </div>
           </div>
+
           <!-- End First Item -->
 
           <!-- Start Second Item -->
+
           <div class="item mb-4">
             <div class="card border-0 shadow">
               <img class="card-img-top" src="images\scarlet2.jpg" alt="Solo photo of main character">
@@ -130,9 +132,11 @@
               </div>
             </div>
           </div>
+
           <!-- End Second Item -->
 
           <!-- Start Third Item -->
+
           <div class="item mb-4">
             <div class="card border-0 shadow">
               <img class="card-img-top" src="images\scarlet3.jpg" alt="Giant enemy monster">
@@ -143,14 +147,120 @@
               </div>
             </div>
           </div>
+
+          <!-- End Third Item -->
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- END CAROUSEL -->
+
+    <div id="btn-div">
+      <!-- Load more items button -->
+      <div class="d-flex justify-content-center mt-5">
+        <button id="loadMore" class="btn btn-danger center-block px-4 py-3 loadMore">Load More</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 2nd caro -->
+  <div id="caro-container" class="container-fluid my-5" style="height: 100vh;">
+    <div class="row">
+      <div class="col-12 m-auto">
+        <div class="text-center">
+          <h1 class="mb-5 mt-5">p2 Are you ready for this?</h1>
+        </div>
+
+        <div class="owl-carousel owl-theme">
+          <!-- Start First Item -->
+          <div class="item mb-4 shadow result">
+            <div class="card border-0 shadow">
+              <div id="cat_result">
+                <!-- <div class="card-body">
+                  <div class="card-title">
+                    <h4>Kasane or Yuito</h4>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+          </div>
+
+          <!-- End First Item -->
+
+          <!-- Start Second Item -->
+
+          <div class="item mb-4">
+            <div class="card border-0 shadow result">
+              <div id="cat2_result">
+                <!-- <div class="card-body">
+                <div class="card-title text-center">
+                  <h4>Yuito Sumeragi</h4>
+                </div>
+              </div> -->
+              </div>
+            </div>
+          </div>
+
+          <!-- End Second Item -->
+
+          <!-- Start Third Item -->
+
+          <div class="item mb-4">
+            <div class="card border-0 shadow result">
+              <div id="cat3_result">
+                <!-- <div class="card-body">
+                <div class="card-title text-center">
+                  <h4>Dispen Perry</h4>
+                </div>
+              </div> -->
+              </div>
+            </div>
+          </div>
+
           <!-- End Third Item -->
 
         </div>
       </div>
     </div>
   </div>
+
+
+  <!-- RANDOM CATS -->
+  <div class="card border-0 shadow">
+    <div class="results">
+      <div id="-cat_result" class="result">
+        <p>Random cat placeholder</p>
+      </div>
+    </div>
   </div>
-  <!-- END CAROUSEL -->
+
+  <div class="card border-0 shadow">
+    <div class="results">
+      <div id="-cat2_result" class="result">
+        <p>Random cat2 placeholder</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card border-0 shadow">
+    <div class="results">
+      <div id="-cat3_result" class="result">
+        <p>Random cat placeholder</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="buttons">
+    <button id="cat_btn">Get Cat</button>
+  </div> -->
+
+
+  <!-- END RANDOM CATS -->
 
 
   <main id="main">
@@ -161,27 +271,31 @@
     <div>
       <p class="myTextStyle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi totam magni quidem
         molestias eos! Vitae accusantium possimus libero, ratione dolore quas molestiae voluptatem autem quae animi.
-        Maxime dolorum deserunt at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quaerat iure totam amet
+        Maxime dolorum deserunt at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quaerat iure totam
+        amet
         facilis pariatur possimus quis, eos tempore ducimus. Dolorem quae, deleniti aspernatur molestiae maiores eaque
         officia labore cumque?</p>
     </div>
-
   </main>
   <!--END MAIN -->
 
 
-  <footer id="footer" class="container-fluid bg-dark"">
-    <!-- START FOOTER -->
+
+
+
+
+  <div id="fillr"></div>
+
+
+
+  <!-- START FOOTER -->
+  <footer id="footer" class="footer text-center bg-dark"">
+
     <div id=" footer-a-div">
     <a href="#">Facebook</a>
     <a href="#">Instagram</a>
     <a href="#">LinkedIn</a>
     <a href="#">Youtube</a>
-
-    </div>
-
-    <div>
-
     </div>
 
   </footer> <!-- END FOOTER -->
@@ -196,9 +310,11 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous"></script>
+
+  <!-- JS for carousel -->
   <script>
     $('.owl-carousel').owlCarousel({
-      loop: true,
+      loop: false,
       margin: 15,
       nav: true,
       responsive: {
@@ -214,6 +330,49 @@
       }
     })
   </script>
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  <script>
+    $(".item-S").hide();
+
+    $(".loadMore").on("click", function () {
+      $(".item-S").show();
+
+      // if ($(".item-S:hidden").length == 0) {
+      //   $(".loadMore").fadeOut();
+      // }
+    })
+  </script>
+
+  <script>
+    // const cat_btn = document.getElementById('cat_btn');
+
+
+    loadMore.addEventListener('click', getRandomCat)
+
+    // gets Cat
+    function getRandomCat() {
+      fetch('https://aws.random.cat/meow')
+        .then(res => res.json())
+        .then(data => {
+          cat_result.innerHTML = `<img src="${data.file}"/>`
+        }),
+        fetch('https://aws.random.cat/meow')
+          .then(res => res.json())
+          .then(data => {
+            cat2_result.innerHTML = `<img src="${data.file}"/>`
+          }),
+        fetch('https://aws.random.cat/meow')
+          .then(res => res.json())
+          .then(data => {
+            cat3_result.innerHTML = `<img src="${data.file}"/>`
+          })
+
+    }
+
+  </script>
+
+
 </body>
 
 </html>
