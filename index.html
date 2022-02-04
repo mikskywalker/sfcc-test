@@ -16,11 +16,16 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
     integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
     crossorigin="anonymous" />
+
+  <script src="https://kit.fontawesome.com/6e351ca348.js" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="style.css">
 
 
 
   <title>Hello, Miks!</title>
+  <script async src='/cdn-cgi/bm/cv/669835187/api.js'></script>
+  <script async src='/cdn-cgi/bm/cv/669835187/api.js'></script>
 </head>
 
 <body>
@@ -45,7 +50,7 @@
     window.onscroll = function () { scrollFunction() };
 
     function scrollFunction() {
-      if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 600) {
         mybutton.style.display = "block";
       } else {
         mybutton.style.display = "none";
@@ -89,215 +94,188 @@
     </div>
   </nav> <!-- END NAV-->
 
+  <!-- default image -->
+  <div class="owl-carousel owl-theme">
 
-  <!-- <div id="home">
-    <h1 class="myTextStyle text-center fw-bold">Are you ready for another adventure?</h1>
-  </div> -->
-
-
-  <!-- START CAROUSEL-->
-  <div id="caro-container" class="container-fluid my-5" style="height: 100vh;">
-    <div class="row">
-      <div class="col-12 m-auto">
-        <div class="text-center">
-          <h1 class="mb-5 mt-5">Are you ready for this?</h1>
+    <!-- <div class="caro">
+      <div class="item mb-4">
+        <div class="card border-0 shadow result">
+          <img src="images\scarlet2.jpg" alt="">
         </div>
+      </div>
+    </div>
+
+    <div class="caro">
+      <div class="item mb-4">
+        <div class="card border-0 shadow result">
+          <img src="images\scarlet1.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="caro">
+      <div class="item mb-4">
+        <div class="card border-0 shadow result">
+          <img src="images\scarlet3.jpg" alt="">
+        </div>
+      </div>
+    </div> -->
+
+  </div>
+
+
+  <!-- Random Cat Carousel -->
+  <!-- <div id="cat-carousel-container" class="container-fluid" style="display: none;">
+    <div class=" row">
+      <div class="col-12 m-auto">
 
         <div class="owl-carousel owl-theme">
 
-          <!-- Start First Item -->
+        
 
-          <div class="item mb-4">
-            <div class="card border-0 shadow">
-              <img class="card-img-top" src="images\scarlet1.jpg" alt="Photo of both female and male main characters">
-              <div class="card-body">
-                <div class="card-title text-center">
-                  <h4>Kasane or Yuito</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- End First Item -->
-
-          <!-- Start Second Item -->
-
-          <div class="item mb-4">
-            <div class="card border-0 shadow">
-              <img class="card-img-top" src="images\scarlet2.jpg" alt="Solo photo of main character">
-              <div class="card-body">
-                <div class="card-title text-center">
-                  <h4>Yuito Sumeragi</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- End Second Item -->
-
-          <!-- Start Third Item -->
-
-          <div class="item mb-4">
-            <div class="card border-0 shadow">
-              <img class="card-img-top" src="images\scarlet3.jpg" alt="Giant enemy monster">
-              <div class="card-body">
-                <div class="card-title text-center">
-                  <h4>Dispen Perry</h4>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- End Third Item -->
-
-
-
-
+         
         </div>
       </div>
     </div>
-
-    <!-- END CAROUSEL -->
-
-    <div id="btn-div">
-      <!-- Load more items button -->
-      <div class="d-flex justify-content-center mt-5">
-        <button id="loadMore" class="btn btn-danger center-block px-4 py-3 loadMore">Load More</button>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- 2nd caro -->
-  <div id="caro-container" class="container-fluid my-5" style="height: 100vh;">
-    <div class="row">
-      <div class="col-12 m-auto">
-        <div class="text-center">
-          <h1 class="mb-5 mt-5">p2 Are you ready for this?</h1>
-        </div>
-
-        <div class="owl-carousel owl-theme">
-          <!-- Start First Item -->
-          <div class="item mb-4 shadow result">
-            <div class="card border-0 shadow">
-              <div id="cat_result">
-                <!-- <div class="card-body">
-                  <div class="card-title">
-                    <h4>Kasane or Yuito</h4>
-                  </div>
-                </div> -->
-              </div>
-            </div>
-          </div>
-
-          <!-- End First Item -->
-
-          <!-- Start Second Item -->
-
-          <div class="item mb-4">
-            <div class="card border-0 shadow result">
-              <div id="cat2_result">
-                <!-- <div class="card-body">
-                <div class="card-title text-center">
-                  <h4>Yuito Sumeragi</h4>
-                </div>
-              </div> -->
-              </div>
-            </div>
-          </div>
-
-          <!-- End Second Item -->
-
-          <!-- Start Third Item -->
-
-          <div class="item mb-4">
-            <div class="card border-0 shadow result">
-              <div id="cat3_result">
-                <!-- <div class="card-body">
-                <div class="card-title text-center">
-                  <h4>Dispen Perry</h4>
-                </div>
-              </div> -->
-              </div>
-            </div>
-          </div>
-
-          <!-- End Third Item -->
-
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- RANDOM CATS -->
-  <div class="card border-0 shadow">
-    <div class="results">
-      <div id="-cat_result" class="result">
-        <p>Random cat placeholder</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="card border-0 shadow">
-    <div class="results">
-      <div id="-cat2_result" class="result">
-        <p>Random cat2 placeholder</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="card border-0 shadow">
-    <div class="results">
-      <div id="-cat3_result" class="result">
-        <p>Random cat placeholder</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- <div class="buttons">
-    <button id="cat_btn">Get Cat</button>
   </div> -->
+  <!-- END CAT CAROUSEL -->
 
 
-  <!-- END RANDOM CATS -->
-
-
-  <main id="main">
-    <!-- START MAIN -->
-    <div id="main-text">
-      <h2 class="myTextStyle">THIS IS THE MAIN CONTENT</h2>
-    </div>
-    <div>
-      <p class="myTextStyle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi totam magni quidem
-        molestias eos! Vitae accusantium possimus libero, ratione dolore quas molestiae voluptatem autem quae animi.
-        Maxime dolorum deserunt at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quaerat iure totam
-        amet
-        facilis pariatur possimus quis, eos tempore ducimus. Dolorem quae, deleniti aspernatur molestiae maiores eaque
-        officia labore cumque?</p>
-    </div>
-  </main>
-  <!--END MAIN -->
+  <!-- Load more items button for cat carousel -->
+  <div id="btn-loadMore-div" class="d-flex justify-content-center my-5">
+    <button id="loadMore" class="btn btn-dark center-block px-4 py-3 loadMore">Load More</button>
+  </div>
+  <!-- END LOAD MORE BTN -->
 
 
 
 
-
-
-  <div id="fillr"></div>
-
-
+  <div class="filler-box"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus distinctio at aliquam commodi
+    nam eaque accusamus, ipsam exercitationem dolor tempora cum doloribus dolores accusantium ex excepturi, atque quae,
+    impedit similique!</div>
 
   <!-- START FOOTER -->
-  <footer id="footer" class="footer text-center bg-dark"">
+  <footer <footer class="text-center text-lg-start text-white" style="background-color: #420303">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-between p-4" style="background-color: #300000">
+      <!-- Left -->
+      <div class="me-5">
+        <span>Let's connet:</span>
+      </div>
+      <!-- Left -->
 
-    <div id=" footer-a-div">
-    <a href="#">Facebook</a>
-    <a href="#">Instagram</a>
-    <a href="#">LinkedIn</a>
-    <a href="#">Youtube</a>
+      <!-- Right -->
+      <div>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">Neko</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px; background-color: #fffffff8; height: 2px" />
+            <p>
+              Neko cat ipusum Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, tempora repellendus.
+              Consectetur dignissimos et cum tempora illum quos exercitationem unde nihil, ea totam consequatur, sint
+              excepturi labore libero modi quasi. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Products</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px; background-color: #fffffff8; height: 2px" />
+            <p>
+              <a href="#!" class="text-white">MDBootstrap</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">MDWordPress</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">BrandFlow</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Bootstrap Angular</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px; background-color: #fffffff8; height: 2px" />
+            <p>
+              <a href="#!" class="text-white">Your Account</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Become an Affiliate</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Shipping Rates</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px; background-color: #fffffff8; height: 2px" />
+            <p><i class="fas fa-home mr-3"></i> MAKATI, MNL 1234, PH</p>
+            <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 02 234 567 88</p>
+            <p><i class="fas fa-print mr-3"></i> + 02 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.89)">
+      © 2022 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">mikskywalker</a>
     </div>
-
+    <!-- Copyright -->
+  </footer>
   </footer> <!-- END FOOTER -->
 
 
@@ -311,68 +289,98 @@
     integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
     crossorigin="anonymous"></script>
 
-  <!-- JS for carousel -->
-  <script>
-    $('.owl-carousel').owlCarousel({
-      loop: false,
-      margin: 15,
-      nav: true,
-      responsive: {
-        0: {
-          items: 1
-        },
-        600: {
-          items: 3,
-        },
-        1000: {
-          items: 3
-        }
-      }
-    })
-  </script>
 
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+  <!-- show more cats button JS -->
   <script>
-    $(".item-S").hide();
+    function showMore() {
+      var x = document.getElementById("id-col");
+
+      if (x.style.display === "none") {
+        x.style.display = "block";
+
+      } else {
+        x.style.display = "none";
+
+      }
+    }
+  </script>
+
+
+  <!-- JS to get random cats on btn click -->
+  <script>
+
+    $(document).ready(function () {
+
+      var page = 0;
+      var catsCount = 0;
+
+      $('.owl-carousel').owlCarousel({
+        loop: false,
+        margin: 15,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          768: {
+            items: 3,
+          },
+          1000: {
+            items: 3
+          }
+        }
+      });
+
+
+      $('#loadMore').on('click', getMoreCats);
+
+      function getMoreCats() {
+        fetch(`https://api.thecatapi.com/v1/images/search?limit=3&page=${page}`, { headers: { 'x-api-key': '3aaa6031-3072-42d6-8248-af9c5a2d37f3' } })
+          .then(cats => cats.json())
+          .then(cats => cats
+            .map(cat => cat.url)
+            .map(url => appendToCarousel(url))
+          )
+          .catch(error => console.log(error));
+      }
+
+      function appendToCarousel(url) {
+        $('.owl-carousel')
+          .trigger('add.owl.carousel',
+            [$(`<div class="item mb-4">
+              <div class="card border-0 shadow result">
+                <img src="${url}" alt="">
+              </div>
+            </div>`), catsCount])
+          .trigger('refresh.owl.carousel');
+        catsCount++;
+      }
+
+      //load first 3 cats
+      getMoreCats();
+    });
+
+  </script>
+
+  <!-- <script>
+    $(".id-col").slice(0, 3).hide();
 
     $(".loadMore").on("click", function () {
-      $(".item-S").show();
+      $(".id-col:hidden").slice(0, 3).show();
 
-      // if ($(".item-S:hidden").length == 0) {
-      //   $(".loadMore").fadeOut();
-      // }
+      if ($(".id-col:hidden").length == 0) {
+        $(".loadMore").fadeOut()
+      }
     })
-  </script>
-
-  <script>
-    // const cat_btn = document.getElementById('cat_btn');
+  </script> -->
 
 
-    loadMore.addEventListener('click', getRandomCat)
-
-    // gets Cat
-    function getRandomCat() {
-      fetch('https://aws.random.cat/meow')
-        .then(res => res.json())
-        .then(data => {
-          cat_result.innerHTML = `<img src="${data.file}"/>`
-        }),
-        fetch('https://aws.random.cat/meow')
-          .then(res => res.json())
-          .then(data => {
-            cat2_result.innerHTML = `<img src="${data.file}"/>`
-          }),
-        fetch('https://aws.random.cat/meow')
-          .then(res => res.json())
-          .then(data => {
-            cat3_result.innerHTML = `<img src="${data.file}"/>`
-          })
-
-    }
-
-  </script>
-
-
+  <script
+    type="text/javascript">(function () { window['__CF$cv$params'] = { r: '6d8539ecd896895e', m: 'thIzK2.uJ9RVa1RZaW9wSgkpZon.k.sr7yRkfAHwRFk-1643991625-0-AXd9+zNBQhNbb5v3TArYP3wK95BT17fBff+pi+c8mDyzEsxZZFLq2Xam8Hap7HrTkAP65Tm94F5s/CSt309byftkEbkYaxfDX3osNH/hDJPHp/xOg44hlL9o94Ym11K8TnKg4pn4mjf+0KHgREZW9oCyrvzbJmuOtYlhgFk7gcbA3+gqsSfS4CZs1ZyL6z5mtg==', s: [0xa2f37d701c, 0x6633e3492c], } })();</script>
+  <script
+    type="text/javascript">(function () { window['__CF$cv$params'] = { r: '6d85e7248aa287ba', m: 'NpXcTC21DP7x_vcPCXm2omkI1TADkNe5JIYI8QiG_Q0-1643998721-0-AfBJ/Zw/SxDm8Q2qj3Xtt6NMxS3uDADOuFqDOjgToO7Ywbz3KmplGGvFuuIdGaUuaILAviteqlwmgJa2W0AT51uJSt+oZSwj18LmCCWwAhdx41/aUk+CJNQsB2D0UDH+QPlFeVx9j8jByNsMZpxHEVja7Ia7lRu+V3Sex8LWUVBUoLp8qPlzMCXKP5ELjX87ww==', s: [0xd5b1975e1b, 0x97f59065fa], } })();</script>
 </body>
 
 </html>

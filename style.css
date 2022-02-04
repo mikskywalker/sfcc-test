@@ -1,5 +1,6 @@
 body {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.575);
+
 
 }
 
@@ -7,56 +8,53 @@ body {
     background-color: black;
 }
 
-#home {
+
+/* CATS */
+
+
+
+.result {
+    background-color: rgb(255, 255, 255);
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: #F1F1F1;
-    width: 100%;
-    height: 100vh;
-    color: black;
-    margin: 0%, 3%, 0%, 3%;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    height: 50vh;
+  
+
+
 
 }
 
-#main  {
+
+.result-cat {
+    background-color: rgb(255, 255, 255);
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: #F1F1F1;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+  
+
+
+
+}
+
+.result-cat img {
+    object-fit: contain;
+    /* height: 100%;
+    width: 100%; */
+
+}
+
+
+.filler-box {
     height: 100vh;
     width: 100%;
-
-
-}
-
-#main-text {
-    margin: 3%;
-}
-
-.myTextStyle {
-    padding-left: 1%;
-    padding-right: 1%;
-}
-
-#caro-container {
-    background: white;
-}
-
-#footer {
-
-    background-color: black;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-}
-
-#footer a {
-    text-decoration: none;
-   color: white;
-
-
+    background-color: rgb(177, 177, 177);
 }
 
 /* BUTTON TO TOP STYLE */
@@ -83,39 +81,3 @@ body {
     background-color: #555; /* Add a dark-grey background on hover */
     
   }
-
-/* CATS */
-
-.results {
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-  margin-bottom: 100px;
-
-
-}
-
-.result {
-    background-color: rgb(230, 227, 227);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-    padding: 10px;
-    height: 50vh;
-    width: 30vw;
-
-}
-
-.result img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-  }
-
-#fillr {
-    width: 100%;
-    height: 40vh;
-    background-color: antiquewhite;
-}
